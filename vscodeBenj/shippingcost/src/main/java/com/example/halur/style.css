@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero {
+    display: inline-block;
+
+}
+html {
+    background-color: burlywood;
+}
+h1 {
+    text-align: center;
+    color:chartreuse;
+    margin-top: 10px;
+}
+ul, li, a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 3px;
+}
+ul, li{
+ cursor: pointer;
+}
+ul, li:hover{
+    color: blue;
+}
+p{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
